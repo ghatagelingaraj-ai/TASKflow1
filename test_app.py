@@ -48,4 +48,3 @@ def test_complete(client):
 
     assert r.status_code == 200
     assert r.get_json()["done"] is True
-    
